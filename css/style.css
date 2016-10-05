@@ -1,6 +1,6 @@
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   border: 0;
 }
 
@@ -10,7 +10,7 @@ a {
 
 @font-face {
   font-family:'Montserrat';
-  src:url(../fonts/Montserrat-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
   font-weight: 400;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  width:1024px;
+  width: 1024px;
   margin: 0 auto;
 }
 
@@ -33,13 +33,13 @@ header {
   padding-left: 54px;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
   list-style: none;
   margin-right: 30px;
 }
 
-.nav li:last-of-type{
+.nav li:last-of-type {
   margin-right: 0;
 }
 
@@ -49,13 +49,13 @@ header {
 }
 
 .nav li a:hover {
-  color:#fff;
+  color: #fff;
 }
 
 .banner {
   background: #17b2c5;
-  padding:205px 0 170px 0;
-  color:#fff;
+  padding: 205px 0 170px 0;
+  color: #fff;
 }
 
 .banner-content {
@@ -68,13 +68,13 @@ h1 {
 
 .banner a {
   display: block;
-  color:rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 34px;
   margin-top: 45px;
 }
 
 .banner a:hover {
-  color:#fff;
+  color: #fff;
 }
 
 .banner a:after {
@@ -100,17 +100,17 @@ h1 {
 }
 
 .more-robin-hood {
-  width:22%;
+  width: 22%;
 }
 
 .more-robin-hood a {
   display: flex;
-  width:100%;
+  width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  color:#fff;
+  color: #fff;
   background: #bc3183;
 }
 
@@ -120,7 +120,7 @@ h1 {
 
 .textbox p {
   display: block;
-  padding:110px 0 110px 84px;
+  padding: 110px 0 110px 84px;
   font-size: 30px;
   color: #9282a0;
   line-height: 1;
@@ -128,7 +128,6 @@ h1 {
 
 .gallery .container {
  display: flex;
-  
 }
 
 .go-to-gallery {
@@ -137,12 +136,12 @@ h1 {
 
 .go-to-gallery a{
   display: flex;
-  width:100%;
+  width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  color:#fff;
+  color: #fff;
   background: #5b0fa1;
 }
 
@@ -156,7 +155,7 @@ h1 {
 }
 
 .img-container img {
-  width:100%;
+  width: 100%;
 }
 
 .gallery {
@@ -168,7 +167,7 @@ h1 {
 }
 
 .text-content {
-  padding:55px 0 170px 0;
+  padding: 55px 0 170px 0;
 }
 
 .text {
@@ -177,11 +176,11 @@ h1 {
 }
 
 .column {
-  width:46.5%;
+  width: 46.5%;
 }
 
 .left-column {
-  margin-right:60px;
+  margin-right: 60px;
 }
 
 .column p { 
@@ -192,7 +191,7 @@ h1 {
 
 .text-content a {
   font-size: 30px;
-  color:#088ca5;
+  color: #088ca5;
   margin-left: 82px;
 }
 
