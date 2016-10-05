@@ -68,13 +68,14 @@ h1 {
 
 .banner a {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  opacity: 0.8;
   font-size: 34px;
   margin-top: 45px;
 }
 
 .banner a:hover {
-  color: #fff;
+  opacity: 1;
 }
 
 .banner a:after {
