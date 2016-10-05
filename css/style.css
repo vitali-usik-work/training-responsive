@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family:'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background: #373c3f;
+  padding: 45px 0 40px 0;
+}
+
+.nav {
+  padding-left: 54px;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav li:last-of-type {
+  margin-right: 0;
+}
+
+.nav li a {
+  font-size: 15px;
+  color: #ebebeb;
+}
+
+.nav li a:hover {
+  color: #fff;
+}
+
+.banner {
+  background: #17b2c5;
+  padding: 205px 0 170px 0;
+  color: #fff;
+}
+
+.banner-content {
+  padding: 0 84px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.banner a {
+  display: block;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 34px;
+  margin-top: 45px;
+}
+
+.banner a:hover {
+  opacity: 1;
+}
+
+.banner a:after {
+  content: ">";
+  font-size: 36px;
+  color: #fff;
+  margin-left: 300px;
+}
+
+.robin-hood {
+  background: #27212c;
+}
+
+.robin-hood .container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.textbox {
+  width: 78%;
+  background: #27212c;
+}
+
+.more-robin-hood {
+  width: 22%;
+}
+
+.more-robin-hood a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  background: #bc3183;
+}
+
+.more-robin-hood a:hover {
+  background: #CE519A
+}
+
+.textbox p {
+  display: block;
+  padding: 110px 0 110px 84px;
+  font-size: 30px;
+  color: #9282a0;
+  line-height: 1;
+}
+
+.gallery .container {
+ display: flex;
+}
+
+.go-to-gallery {
+  width: 33%;
+}
+
+.go-to-gallery a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #fff;
+  background: #5b0fa1;
+}
+
+.go-to-gallery a:hover {
+  background: #7030AB;
+}
+
+.img-container {
+  width: 33.5%;
+  font-size: 0;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.gallery {
+  background: #27212c;
+}
+
+.text-content {
+  background: #ebebeb;
+}
+
+.text-content {
+  padding: 55px 0 170px 0;
+}
+
+.text {
+  padding: 30px 82px 0 82px;
+  display: flex;
+}
+
+.column {
+  width: 46.5%;
+}
+
+.left-column {
+  margin-right: 60px;
+}
+
+.column p { 
+  line-height: 1.86;
+  margin-bottom: 45px;
+  color: #515151;
+}
+
+.text-content a {
+  font-size: 30px;
+  color: #088ca5;
+  margin-left: 82px;
+}
+
+.text-content a:hover {
+  color: #4EACBE;
+}
