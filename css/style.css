@@ -17,6 +17,7 @@ a {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  line-height: 1;
 }
 
 .container {
@@ -26,17 +27,17 @@ body {
 
 header {
   background: #373c3f;
-  padding: 45px 0 40px 0;
+  padding: 43px 0 39px 0;
 }
 
 .nav {
-  padding-left: 54px;
+  padding-left: 52px;
 }
 
 .nav li {
   display: inline-block;
   list-style: none;
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 .nav li:last-of-type {
@@ -53,17 +54,19 @@ header {
 }
 
 .banner {
-  background: #17b2c5;
-  padding: 205px 0 170px 0;
+  background: linear-gradient(to bottom right, #19b4c6, #078aa4);
+  padding: 194px 0 167px 0;
   color: #fff;
 }
 
 .banner-content {
-  padding: 0 84px;
+  padding: 0 82px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 63px;
+  font-weight: normal;
+  line-height: 67px;
 }
 
 .banner a {
@@ -71,7 +74,8 @@ h1 {
   color: #fff;
   opacity: 0.8;
   font-size: 34px;
-  margin-top: 45px;
+  margin-top: 48px;
+  letter-spacing: 1px;
 }
 
 .banner a:hover {
@@ -79,10 +83,14 @@ h1 {
 }
 
 .banner a:after {
-  content: ">";
-  font-size: 36px;
-  color: #fff;
-  margin-left: 300px;
+  content: "";
+  display: block;
+  width: 15px;
+  height: 25px;
+  background: url(../img/arrow-36px.png);
+  float: right;
+  margin-right: 140px;
+  margin-top: 7px;
 }
 
 .robin-hood {
@@ -96,35 +104,32 @@ h1 {
 }
 
 .textbox {
-  width: 78%;
+  width: 77.8%;
   background: #27212c;
 }
 
 .more-robin-hood {
-  width: 22%;
+  width: 22.2%;
 }
 
 .more-robin-hood a {
-  display: flex;
+  display: block;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  color: #fff;
-  background: #bc3183;
+  background: url(../img/arrow-50px.png) 47% 47% no-repeat, #bc3183;
 }
 
 .more-robin-hood a:hover {
-  background: #CE519A
+  background-color: #ce519a
 }
 
 .textbox p {
   display: block;
-  padding: 110px 0 110px 84px;
-  font-size: 30px;
+  padding: 110px 0 105px 84px;
+  font-size: 31px;
   color: #9282a0;
   line-height: 1;
+  letter-spacing: 0.2px;
 }
 
 .gallery .container {
@@ -132,26 +137,22 @@ h1 {
 }
 
 .go-to-gallery {
-  width: 33%;
+  width: 33.6%;
 }
 
 .go-to-gallery a{
-  display: flex;
+  display: block;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  color: #fff;
-  background: #5b0fa1;
+  background: url(../img/arrow-40px.png) 49% 47% no-repeat, #5b0fa1;
 }
 
 .go-to-gallery a:hover {
-  background: #7030AB;
+  background-color: #7030ab;
 }
 
 .img-container {
-  width: 33.5%;
+  width: 33.2%;
   font-size: 0;
 }
 
@@ -165,14 +166,11 @@ h1 {
 
 .text-content {
   background: #ebebeb;
-}
-
-.text-content {
-  padding: 55px 0 170px 0;
+  padding: 51px 0 170px 0;
 }
 
 .text {
-  padding: 30px 82px 0 82px;
+  padding: 20px 82px 0 82px;
   display: flex;
 }
 
@@ -186,14 +184,14 @@ h1 {
 
 .column p { 
   line-height: 1.86;
-  margin-bottom: 45px;
+  margin-bottom: 31px;
   color: #515151;
 }
 
 .text-content a {
   font-size: 30px;
   color: #088ca5;
-  margin-left: 82px;
+  margin-left: 78px;
 }
 
 .text-content a:hover {
