@@ -14,10 +14,11 @@ a {
   font-weight: 400;
 }
 
-body {
+.wrapper {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1;
+  min-width: 1024px;
 }
 
 .container {
