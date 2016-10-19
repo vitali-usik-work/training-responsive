@@ -31,6 +31,10 @@ header {
   padding: 43px 0 39px 0;
 }
 
+header h2 {
+  display: none;
+}
+
 .nav {
   padding-left: 52px;
 }
@@ -88,7 +92,7 @@ h1 {
   display: block;
   width: 15px;
   height: 25px;
-  background: url(../img/arrow-36px.png);
+  background: url(../img/arrow-36px.png) no-repeat;
   float: right;
   margin-right: 140px;
   margin-top: 7px;
@@ -134,11 +138,12 @@ h1 {
 }
 
 .gallery .container {
- display: flex;
+ overflow: auto;
 }
 
 .go-to-gallery {
   width: 33.6%;
+  float: left;
 }
 
 .go-to-gallery a{
@@ -155,6 +160,7 @@ h1 {
 .img-container {
   width: 33.2%;
   font-size: 0;
+  float: left;
 }
 
 .img-container img {
@@ -197,4 +203,154 @@ h1 {
 
 .text-content a:hover {
   color: #4EACBE;
+}
+
+@media (max-width: 1023px) {
+  
+  .wrapper {
+    min-width: 640px;
+    max-width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .gallery .container {
+    display: block;
+  }
+     
+  .img-container {
+    width: 100%;
+  }
+  
+  .go-to-gallery {
+    width: 100%;
+  }
+ 
+  .more-robin-hood {
+    width:142px;
+    min-width:142px;
+  }
+  
+  .textbox {
+    width: 881px;
+    min-width: 498px;
+  }
+
+  .textbox p {
+    font-size: 20px;
+    padding: 68px 0 62px 53px;
+  }
+  
+  .right-column {
+    display: none;
+  }
+  
+   .left-column {
+    margin: 0 auto;
+  }
+  
+  header {
+    padding: 0;
+  }
+
+  header h2 {
+    display: block;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+    padding: 25px 0 26px 36px;
+  }
+  
+  header .container {
+    position: relative;
+  }
+  
+  .nav {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 100%;
+    z-index: 2;
+  }
+  
+  .nav li {
+    display: block;
+    width: 250px;
+    margin: 0;
+  }
+  
+  .nav li a {
+    display: block;
+    padding: 25px;
+    background: rgba(55, 60, 63, 0.8);
+    border-bottom: 1px solid #70767B;
+    }
+  
+  .nav li a:hover {
+    background: rgba(112, 118, 123, 0.8);
+  }
+  
+  .dropdown-toggle {
+    display: block;
+    width: 82px;
+    height: 75px;
+    background: url(../img/navigation-icon.png) 50% 50% no-repeat #202529;
+    float:right;
+   }
+  
+  h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+
+  .banner a {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .banner a:after {
+    margin-right: 10px;
+    background-size: 75%;
+  }
+
+  .banner {
+    padding: 0;
+  }
+
+  .banner-content {
+    padding: 108px 135px 105px 52px;
+  }
+
+  .go-to-gallery a {
+    background-image: url(../img/arrow-640px-purple.png);
+    background-size: 33px; 
+  }
+
+  .more-robin-hood a { 
+    background-size: 15px;
+  }
+
+  .column {
+    font-size: 22px;
+    width: 100%;
+  }
+
+  .column p {
+    line-height: 43px;
+    padding-bottom: 25px;
+  }
+
+  .text {
+    padding: 40px 73px 0 73px;
+  }
+
+  .text-content a {
+    margin-left: 74px;
+  }
+
+  .text-content {
+    padding-top: 68px;
+  }
 }
