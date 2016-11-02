@@ -229,8 +229,8 @@ h1 {
   }
  
   .more-robin-hood {
-    width:142px;
-    min-width:142px;
+    width: 142px;
+    min-width: 142px;
   }
   
   .textbox {
@@ -297,7 +297,7 @@ h1 {
     width: 82px;
     height: 75px;
     background: url(../img/navigation-icon.png) 50% 50% no-repeat #202529;
-    float:right;
+    float: right;
    }
   
   h1 {
