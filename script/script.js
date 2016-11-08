@@ -1,3 +1,6 @@
+var MIN_WIDTH = 1024;
+var NAV_SELECTOR = ".nav";
+var DROPDOWN_TOGGLE_SELECTOR = ".dropdown-toggle";
 //.go-to-gallery height
 $(document).ready( adaptiveHeight );
 $(window).resize( adaptiveHeight );
@@ -9,33 +12,24 @@ function adaptiveHeight(){
 }
 
 //NAVIGATION
-
-var minWidth = 1024;
-var navSelector = ".nav";
-var dropdownToggleSelector = ".dropdown-toggle";
-
 //display-hide navigaiton onresize
-
 $(window).resize (function () {
-  if ($(window).width() >= minWidth) {
-    $(navSelector).css("display", "block");
+  if ($(window).width() >= MIN_WIDTH) {
+    $(NAV_SELECTOR).css("display", "block");
   } else {
-      $(navSelector).css("display", "none");
+      $(NAV_SELECTOR).css("display", "none");
   }
 });
 
 //Navigation toggle
-
 function navToggle () {
-  var nav = $('.nav');
-  var minWidth = 1024;
-  if($(window).width() < minWidth) {
-    $(navSelector).slideToggle();
+  if($(window).width() < MIN_WIDTH) {
+    $(NAV_SELECTOR).slideToggle();
     }
     $(document).click(function(e) {
       var target = e.target;
-      if (!$(target).is(dropdownToggleSelector) && !$(target).parents().is(dropdownToggleSelector) && $(window).width() < 1024) {
-        $(navSelector).hide();
+      if (!$(target).is(DROPDOWN_TOGGLE_SELECTOR) && !$(target).parents().is(DROPDOWN_TOGGLE_SELECTOR) && $(window).width() < MIN_WIDTH) {
+        $(NAV_SELECTOR).hide();
       }
     });
 }
