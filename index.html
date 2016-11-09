@@ -4,11 +4,15 @@
   <meta content="text/html" charset="UTF-8">
   <title>Training responsive</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script/script.js"></script>
 </head>
 <body>
   <div class="wrapper">
     <header>
       <div class="container">
+        <a href="#" class="dropdown-toggle" onclick="navToggle()"></a>
+        <h2>Navigation</h2>
         <ul class="nav">
           <li><a href="#">PSD WEBSITES</a></li>
           <li><a href="#">UI KITS</a></li>
@@ -41,7 +45,7 @@
         <div class="go-to-gallery">
           <a href="#"></a>
         </div>
-        <div class="img-container">
+        <div class="img-container" id="img-container1">
           <img src="img/gallery-2.png" alt="gallery image">
         </div>
         <div class="img-container">
