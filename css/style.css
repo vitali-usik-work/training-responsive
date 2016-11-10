@@ -9,7 +9,7 @@ a {
 }
 
 @font-face {
-  font-family:'Montserrat';
+  font-family: 'Montserrat';
   src: url(../fonts/Montserrat-Regular.ttf);
   font-weight: 400;
 }
@@ -378,8 +378,8 @@ h1 {
   }
  
   .more-robin-hood {
-    width:71px;
-    min-width:71px;
+    width: 71px;
+    min-width: 71px;
   }
   
   .textbox {
@@ -435,7 +435,7 @@ h1 {
     padding: 15px;
     background: rgba(55, 60, 63, 0.8);
     border-bottom: 1px solid #70767B;
-    font-size:12px;
+    font-size: 12px;
     }
   
   .nav li a:hover {
@@ -448,7 +448,7 @@ h1 {
     height: 37px;
     background: url(../img/navigation-icon.png) 50% 50% no-repeat #202529;
     background-size: 15px;
-    float:right;
+    float: right;
    }
   
   h1 {
